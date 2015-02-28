@@ -4,10 +4,17 @@
  */
 
 /* Bibliotecas a incluir */
+#include <stdio.h>
 
 void main()
 {
 	/* Declaración de variables */
+        int len = 0;
+        char * cadena = "Esto es una prueba con cadenas";
 
 	/* Código usando while*/
+        while (cadena[len]!='\0') {
+                len++;
+        }
+        printf("La cadena tiene %d caracteres\n",len);
 }
