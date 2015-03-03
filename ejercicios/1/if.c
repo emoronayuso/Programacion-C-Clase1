@@ -11,9 +11,8 @@ void main () {
         int valor = 8;
 
 	/* Código usando condicional if */
-        if (valor > 5) {
-                printf("El valor es mayor que 5 \n");
-        } else {
-                printf("El valor es menor o igual a 5 \n");
-        }
+        if (valor > 5)
+		printf("El valor es mayor que 5 \n");
+         else
+		printf("El valor es menor o igual a 5 \n");
 }

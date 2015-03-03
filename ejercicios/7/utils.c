@@ -7,8 +7,9 @@
  */
 
 /* Zona para incluir las bibliotecas o cabeceras */
-
-
-
+#include "utils.h"
 
 /* Declaracion de la funcion */
+int es_par (int num) {
+        return !(num % 2);
+}

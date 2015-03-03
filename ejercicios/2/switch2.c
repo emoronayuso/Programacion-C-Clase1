@@ -18,7 +18,7 @@ void main()
                 printf("Se ha recibido un 0 o un 1\n");
                 break;
         default:
-                printf("Se ha recibid un valor inesperado\n");
+                printf("Se ha recibido un valor inesperado\n");
                 break;
         }
 }
